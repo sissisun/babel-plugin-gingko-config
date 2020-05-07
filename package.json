@@ -1,11 +1,8 @@
 {
-  "name": "babel-plugin-gingko-config",
-  "version": "1.0.2",
-  "description": "set gingko config",
+  "name": "@yh-rn/babel-plugin-gingko-config",
+  "version": "1.0.3",
+  "description": "change gingko style config",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sissisun/babel-plugin-gingko-config.git"
@@ -23,5 +20,19 @@
   },
   "dependencies": {
     "@babel/helper-module-imports": "^7.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gingko",
+    "style",
+    "config"
+  ]
 }
